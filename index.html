@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ali Ahmed Ibrahim | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="hero-wrap">
+      <section class="hero">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>Looking for opportunities</span>
+        </div>
+
+        <h1>
+          <span class="line">I build </span>
+          <span class="line accent">cloud solutions</span>
+          <span class="line"> and automate systems</span>
+        </h1>
+
+        
+
+        <p class="intro">
+          I'm Ali Ahmed Ibrahim, a Computer Engineering student and a cloud enthusiast. I love building cloud-native solutions and automating tasks with Python and shell scripts.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">View my work <span aria-hidden="true">→</span></a>
+          <a class="btn btn-secondary" href="#contact">Let's talk</a>
+        </div>
+
+        <div class="tech-stack" aria-label="Tech stack">
+          <span>LINUX</span>
+          <span>PYTHON</span>
+          <span>AWS</span>
+          <span>TERRAFORM</span>
+          <span>JAVASCRIPT</span>
+          <span>C++</span>
+        </div>
+      </section>
+    </main>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I love automating stuff. If I do something twice, I start thinking about how to script it. I study Computer Engineering at AAST (GPA 3.78) and I'm AWS Certified Cloud Practitioner and AI Practitioner.</p>
+      <p class="small">Tools I use: AWS, Terraform, Linux, Python, C++, Java, Git</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="box">
+        <h3>BSc Computer Engineering</h3>
+        <p class="small">AAST University, Alexandria | Oct 2023 - Present | GPA 3.78</p>
+      </div>
+      <div class="box">
+        <h3>BEng (Dual Degree)</h3>
+        <p class="small">University of Northampton, UK (distance) | Jun 2023 - Present</p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="box">
+        <h3>Software Engineer Trainee</h3>
+        <p class="small">Universidad de Burgos, Spain | Jan 2026 - Feb 2026</p>
+        <p>Worked with a multicultural team and practiced version control and code review.</p>
+      </div>
+      <div class="box">
+        <h3>Cloud Engineering Intern</h3>
+        <p class="small">National Telecommunication Institute | Remote | Aug 2025 - Present</p>
+        <p>Deployed AWS infrastructure (EC2, S3, IAM) and automated tasks with Python and shell scripts.</p>
+      </div>
+      <div class="box">
+        <h3>Summer Intern, Generative AI Track</h3>
+        <p class="small">Commercial International Bank (CIB), Cairo | Jul 2025 - Aug 2025</p>
+        <p>Built proof-of-concept solutions with large language models and presented them to mentors.</p>
+      </div>
+      <div class="box">
+        <h3>AI Engineering Intern</h3>
+        <p class="small">WE Telecom Egypt, Alexandria | Jul 2025 - Aug 2025</p>
+        <p>Built a Streamlit app and a Random Forest employee churn prediction model.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="box">
+        <h3>Serverless URL Shortener on AWS</h3>
+        <p>Built with Lambda, API Gateway, DynamoDB and CloudFormation.</p>
+      </div>
+      <div class="box">
+        <h3>Cloud-Native Monitoring Dashboard</h3>
+        <p>CloudWatch metrics and alarms on EC2, with SNS email alerts and Boto3 reports.</p>
+      </div>
+      <div class="box">
+        <h3>Employee Turnover Prediction</h3>
+        <p>Random Forest model with 87% accuracy, deployed as a Streamlit app.</p>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications and Languages</h2>
+      <ul>
+        <li>AWS Certified Cloud Practitioner</li>
+        <li>AWS Certified AI Practitioner</li>
+        <li>Oracle Cloud Infrastructure (OCI) Foundations</li>
+      </ul>
+      <p class="small">Languages: Arabic (native), English (fluent), German (beginner)</p>
+    </section>
+
+    <section id="github">
+      <h2>My GitHub Repositories</h2>
+      <ul id="repos">Loading...</ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="form">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit">Send message</button>
+        <p id="status"></p>
+      </form>
+      <p><a href="https://linkedin.com/in/ali-ahmed-581b0b35b">LinkedIn</a> | <a href="https://github.com/Ali-glitch2">GitHub</a></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
